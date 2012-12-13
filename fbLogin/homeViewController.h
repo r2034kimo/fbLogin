@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface homeViewController : UIViewController
+- (IBAction)goToProfilePage:(id)sender;
+- (IBAction)Logout:(id)sender;
 
 @end
